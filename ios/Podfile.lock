@@ -1,0 +1,50 @@
+PODS:
+  - Flutter (1.0.0)
+  - linphone-sdk-novideo (5.1.36):
+    - linphone-sdk-novideo/all-frameworks (= 5.1.36)
+    - linphone-sdk-novideo/app-extension (= 5.1.36)
+    - linphone-sdk-novideo/app-extension-swift (= 5.1.36)
+    - linphone-sdk-novideo/basic-frameworks (= 5.1.36)
+    - linphone-sdk-novideo/swift (= 5.1.36)
+  - linphone-sdk-novideo/all-frameworks (5.1.36)
+  - linphone-sdk-novideo/app-extension (5.1.36)
+  - linphone-sdk-novideo/app-extension-swift (5.1.36):
+    - linphone-sdk-novideo/app-extension
+  - linphone-sdk-novideo/basic-frameworks (5.1.36):
+    - linphone-sdk-novideo/app-extension
+  - linphone-sdk-novideo/swift (5.1.36):
+    - linphone-sdk-novideo/app-extension-swift
+    - linphone-sdk-novideo/basic-frameworks
+  - mifone_client_flutter (0.0.1):
+    - Flutter
+    - linphone-sdk-novideo
+  - permission_handler_apple (9.0.4):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - linphone-sdk-novideo (= 5.1.36)
+  - mifone_client_flutter (from `.symlinks/plugins/mifone_client_flutter/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+
+SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk-novideo
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mifone_client_flutter:
+    :path: ".symlinks/plugins/mifone_client_flutter/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 405776dd0763d7e32a8f989d4e271ca1317d080c
+  linphone-sdk-novideo: 3ec4521c6c9d52de2f8e7a94d2a7f39769154ceb
+  mifone_client_flutter: 229179893b3fdd758dff33c746570a218ef6efd8
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+
+PODFILE CHECKSUM: 0bcf84700f329166db453f50a8621c08cb9a452a
+
+COCOAPODS: 1.11.3
